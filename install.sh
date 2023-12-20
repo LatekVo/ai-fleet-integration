@@ -4,7 +4,7 @@ mkdir h2o_chat
 cd h2o_chat
 
 pip install virtualenv
-python3.10 -m venv h2o_venv
+python -m venv h2o_venv
 source h2o_venv/bin/activate
 
 # Windows CUDA / Linux CUDA:
