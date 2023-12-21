@@ -38,4 +38,5 @@ pip3 install --no-cache-dir -r reqs_optional/requirements_optional_langchain.url
 pip3 install -r reqs_optional/requirements_optional_langchain.gpllike.txt
 
 # generate and run the model
-python3 generate.py --base_model=TheBloke/zephyr-7B-beta-GGUF --prompt_type=zephyr --max_seq_len=4096
+cd ../..
+./run.sh
